@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Abandoned Cart Recovery\n"
+"POT-Creation-Date: 2019-11-04 16:34+0600\n"
+"PO-Revision-Date: 2019-11-04 16:37+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:106
+msgid "Please click the checkbox to Messenger OPT-IN"
+msgstr "Lütfen Messenger OPT-IN onay kutusunu işaretleyin."
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:171
+msgid "WooCommerce plugin must be istalled to make this plugin work."
+msgstr "Bu eklentinin çalışabilmesi için WooCommerce eklentisinin izlenmesi gerekir."
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:273
+msgid " or skip it"
+msgstr "veya atla"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:491
+#, fuzzy
+#| msgid "Woocommerce abandoned cart recovery API key is invalid!"
+msgid "Woocommerce abandoned cart recovery verification code is invalid!"
+msgstr "Woocommerce terkedilmiş alışveriş sepeti kurtarma API anahtarı geçersiz!"
+
+#: includes/class-wp-list-table.php:169
+msgid "List View"
+msgstr "Liste görünümü"
+
+#: includes/class-wp-list-table.php:170
+msgid "Excerpt View"
+msgstr "Alıntı Görünümü"
+
+#: includes/class-wp-list-table.php:335
+msgid "No items found."
+msgstr "Hiç bir öğe bulunamadı."
+
+#: includes/class-wp-list-table.php:464
+msgid "Select bulk action"
+msgstr "Toplu işlem seç"
+
+#: includes/class-wp-list-table.php:466
+msgid "Bulk Actions"
+msgstr "Toplu eylemler"
+
+#: includes/class-wp-list-table.php:476
+msgid "Apply"
+msgstr "Uygulamak"
+
+#: includes/class-wp-list-table.php:528 includes/class-wp-list-table.php:1350
+msgid "Show more details"
+msgstr "Daha fazla ayrıntı göster"
+
+#: includes/class-wp-list-table.php:596
+msgid "Filter by date"
+msgstr "Tarihe göre filtrele"
+
+#: includes/class-wp-list-table.php:598
+msgid "All dates"
+msgstr "Bütün tarihler"
+
+#: includes/class-wp-list-table.php:613
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-wp-list-table.php:672 includes/class-wp-list-table.php:694
+#: includes/class-wp-list-table.php:717
+msgid "No comments"
+msgstr "Yorum yok"
+
+#: includes/class-wp-list-table.php:694
+msgid "No approved comments"
+msgstr "Onaylanmış yorum yok"
+
+#: includes/class-wp-list-table.php:717
+msgid "No pending comments"
+msgstr "Bekleyen yorum yok"
+
+#: includes/class-wp-list-table.php:830
+msgid "First page"
+msgstr "İlk sayfa"
+
+#: includes/class-wp-list-table.php:841
+msgid "Previous page"
+msgstr "Önceki sayfa"
+
+#: includes/class-wp-list-table.php:848 includes/class-wp-list-table.php:852
+msgid "Current Page"
+msgstr "Geçerli sayfa"
+
+#: includes/class-wp-list-table.php:866
+msgid "Next page"
+msgstr "Sonraki Sayfa"
+
+#: includes/class-wp-list-table.php:877
+msgid "Last page"
+msgstr "Son Sayfa"
+
+#: includes/class-wp-list-table.php:1099
+msgid "Select All"
+msgstr "Hepsini seç"
+
+#: includes/class-xit-wacr-error-log-list.php:90
+msgid "No logs found"
+msgstr "Günlük bulunamadı"
+
+#: includes/class-xit-wacr-error-log-list.php:105
+#: includes/class-xit-wacr-error-log-list.php:182
+msgid "Delete"
+msgstr "silmek"
+
+#: includes/class-xit-wacr-error-log-list.php:153
+msgid "Status"
+msgstr "durum"
+
+#: includes/class-xit-wacr-error-log-list.php:154
+msgid "Failed Data"
+msgstr "Başarısız Veri"
+
+#: includes/class-xit-wacr-error-log-list.php:155
+msgid "Created At"
+msgstr "At oluşturuldu"
+
+#: includes/class-xit-wacr-settings-page.php:75
+msgid "WooCommerce abandoned cart recovery settings"
+msgstr "WooCommerce alışveriş sepeti kurtarma ayarlarından vazgeçti"
+
+#: includes/class-xit-wacr-settings-page.php:76
+msgid "Abandoned Cart"
+msgstr "Terkedilmiş Sepet"
+
+#: includes/class-xit-wacr-settings-page.php:87
+#, fuzzy
+#| msgid "WooCommerce abandoned cart recovery settings"
+msgid "WooCommerce abandoned cart recovery error logs"
+msgstr "WooCommerce alışveriş sepeti kurtarma ayarlarından vazgeçti"
+
+#: includes/class-xit-wacr-settings-page.php:88
+#: includes/class-xit-wacr-settings-page.php:128
+msgid "Error Logs"
+msgstr "Hata Günlükleri"
+
+#: includes/class-xit-wacr-settings-page.php:95
+#: includes/class-xit-wacr-settings-page.php:179
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/class-xit-wacr-settings-page.php:108
+msgid "Logs per page"
+msgstr "Sayfa başına günlük"
+
+#: includes/class-xit-wacr-settings-page.php:152
+msgid "WooCommerce Abandoned Cart Recovery"
+msgstr "WooCommerce Sepeti Kurtarmayı Terk Etti"
+
+#: includes/class-xit-wacr-settings-page.php:187
+msgid "Verification Code"
+msgstr "Doğrulama kodu"
+
+#: includes/class-xit-wacr-settings-page.php:196
+msgid "Webhook Call URL"
+msgstr "Web Kanalı Arama URL'si"
+
+#: includes/class-xit-wacr-settings-page.php:205
+msgid "Checkbox Script URL"
+msgstr "Onay Kutusu Komut Dosyası URL'si"
+
+#: includes/class-xit-wacr-settings-page.php:214
+msgid "Error Message"
+msgstr "Hata mesajı"
+
+#: includes/class-xit-wacr-settings-page.php:229
+#, fuzzy
+#| msgid "The API key that has been provided you."
+msgid "The verification code that has been provided you."
+msgstr "Size sağlanan API anahtarı."
+
+#: includes/class-xit-wacr-settings-page.php:237
+msgid "The URL where cart data will be submitted."
+msgstr "Alışveriş sepeti verilerinin gönderileceği URL."
+
+#: includes/class-xit-wacr-settings-page.php:245
+msgid "The Javascript file for facebook messenger plugin."
+msgstr "Facebook messenger eklentisi için Javascript dosyası."
+
+#: includes/class-xit-wacr-settings-page.php:253
+msgid "The error message to be shown if checkbox is not checked."
+msgstr "Onay kutusu işaretli değilse gösterilmesi gereken hata mesajı."
+
+#: includes/class-xit-wacr-settings-page.php:269
+msgid "Please provide a valid verification code."
+msgstr "Lütfen geçerli bir doğrulama kodu girin."
+
+#: includes/class-xit-wacr-settings-page.php:275
+msgid "Please provide a valid webhook url."
+msgstr "Lütfen geçerli bir web kancası URL'si sağlayın."
+
+#: includes/class-xit-wacr-settings-page.php:281
+msgid "Please provide a valid checkbox script url."
+msgstr "Lütfen geçerli bir onay kutusu komut dosyası URL'si sağlayın."
+
+#: includes/class-xit-wacr-settings-page.php:287
+msgid "Please provide a checkbox opt-in message."
+msgstr "Lütfen bir onay kutusu katılım mesajı girin."
+
+#~ msgid "API Key"
+#~ msgstr "API Anahtarı"
+
+#~ msgid "Server URL"
+#~ msgstr "Sunucu URL'si"

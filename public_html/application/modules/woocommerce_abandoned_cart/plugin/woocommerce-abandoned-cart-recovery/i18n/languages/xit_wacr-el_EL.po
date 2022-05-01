@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Abandoned Cart Recovery\n"
+"POT-Creation-Date: 2019-11-04 16:13+0600\n"
+"PO-Revision-Date: 2019-11-04 16:17+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:106
+msgid "Please click the checkbox to Messenger OPT-IN"
+msgstr "Κάντε κλικ στο πλαίσιο ελέγχου στο Messenger OPT-IN"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:171
+msgid "WooCommerce plugin must be istalled to make this plugin work."
+msgstr ""
+"Το plugin WooCommerce πρέπει να εγκατασταθεί για να γίνει αυτό το πρόσθετο "
+"έργο."
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:273
+msgid " or skip it"
+msgstr "ή να το παραλείψετε"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:491
+#, fuzzy
+#| msgid "Woocommerce abandoned cart recovery API key is invalid!"
+msgid "Woocommerce abandoned cart recovery verification code is invalid!"
+msgstr ""
+"Woocommerce εγκαταλειμμένο κλειδί API αποκατάστασης καλαθιού δεν είναι "
+"έγκυρο!"
+
+#: includes/class-wp-list-table.php:169
+msgid "List View"
+msgstr "Προβολή λίστας"
+
+#: includes/class-wp-list-table.php:170
+msgid "Excerpt View"
+msgstr "Προβολή αποσπασμάτων"
+
+#: includes/class-wp-list-table.php:335
+msgid "No items found."
+msgstr "Δεν βρέθηκαν αντικείμενα."
+
+#: includes/class-wp-list-table.php:464
+msgid "Select bulk action"
+msgstr "Επιλέξτε μαζική ενέργεια"
+
+#: includes/class-wp-list-table.php:466
+msgid "Bulk Actions"
+msgstr "Μαζικές ενέργειες"
+
+#: includes/class-wp-list-table.php:476
+msgid "Apply"
+msgstr "Ισχύουν"
+
+#: includes/class-wp-list-table.php:528 includes/class-wp-list-table.php:1350
+msgid "Show more details"
+msgstr "Δείτε περισσότερες λεπτομέρειες"
+
+#: includes/class-wp-list-table.php:596
+msgid "Filter by date"
+msgstr "Φιλτράρετε κατά ημερομηνία"
+
+#: includes/class-wp-list-table.php:598
+msgid "All dates"
+msgstr "Όλες οι ημερομηνίες"
+
+#: includes/class-wp-list-table.php:613
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-wp-list-table.php:672 includes/class-wp-list-table.php:694
+#: includes/class-wp-list-table.php:717
+msgid "No comments"
+msgstr "Χωρίς σχόλια"
+
+#: includes/class-wp-list-table.php:694
+msgid "No approved comments"
+msgstr "Δεν εγκρίθηκαν σχόλια"
+
+#: includes/class-wp-list-table.php:717
+msgid "No pending comments"
+msgstr "Δεν υπάρχουν σχόλια που εκκρεμούν"
+
+#: includes/class-wp-list-table.php:830
+msgid "First page"
+msgstr "Πρώτη σελίδα"
+
+#: includes/class-wp-list-table.php:841
+msgid "Previous page"
+msgstr "Προηγούμενη σελίδα"
+
+#: includes/class-wp-list-table.php:848 includes/class-wp-list-table.php:852
+msgid "Current Page"
+msgstr "Τρέχουσα σελίδα"
+
+#: includes/class-wp-list-table.php:866
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+#: includes/class-wp-list-table.php:877
+msgid "Last page"
+msgstr "Τελευταία σελίδα"
+
+#: includes/class-wp-list-table.php:1099
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+#: includes/class-xit-wacr-error-log-list.php:90
+msgid "No logs found"
+msgstr "Δεν βρέθηκαν αρχεία καταγραφής"
+
+#: includes/class-xit-wacr-error-log-list.php:105
+#: includes/class-xit-wacr-error-log-list.php:182
+msgid "Delete"
+msgstr "Διαγράφω"
+
+#: includes/class-xit-wacr-error-log-list.php:153
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: includes/class-xit-wacr-error-log-list.php:154
+msgid "Failed Data"
+msgstr "Αποτυχημένα δεδομένα"
+
+#: includes/class-xit-wacr-error-log-list.php:155
+msgid "Created At"
+msgstr "Δημιουργήθηκε στο"
+
+#: includes/class-xit-wacr-settings-page.php:75
+msgid "WooCommerce abandoned cart recovery settings"
+msgstr "Το WooCommerce εγκατέλειψε τις ρυθμίσεις αποκατάστασης καλαθιού"
+
+#: includes/class-xit-wacr-settings-page.php:76
+msgid "Abandoned Cart"
+msgstr "Εγκαταλελειμμένο Καλάθι"
+
+#: includes/class-xit-wacr-settings-page.php:87
+#, fuzzy
+#| msgid "WooCommerce abandoned cart recovery settings"
+msgid "WooCommerce abandoned cart recovery error logs"
+msgstr "Το WooCommerce εγκατέλειψε τις ρυθμίσεις αποκατάστασης καλαθιού"
+
+#: includes/class-xit-wacr-settings-page.php:88
+#: includes/class-xit-wacr-settings-page.php:128
+msgid "Error Logs"
+msgstr "Καταγραφή σφαλμάτων"
+
+#: includes/class-xit-wacr-settings-page.php:95
+#: includes/class-xit-wacr-settings-page.php:179
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class-xit-wacr-settings-page.php:108
+msgid "Logs per page"
+msgstr "Καταγραφές ανά σελίδα"
+
+#: includes/class-xit-wacr-settings-page.php:152
+msgid "WooCommerce Abandoned Cart Recovery"
+msgstr "WooCommerce Εγκατάλειψη αποκατάστασης καλαθιού"
+
+#: includes/class-xit-wacr-settings-page.php:187
+msgid "Verification Code"
+msgstr "Κωδικός επαλήθευσης"
+
+#: includes/class-xit-wacr-settings-page.php:196
+msgid "Webhook Call URL"
+msgstr "Διεύθυνση URL κλήσης Webhook"
+
+#: includes/class-xit-wacr-settings-page.php:205
+msgid "Checkbox Script URL"
+msgstr "Διεύθυνση URL δέσμης ενεργειών ελέγχου"
+
+#: includes/class-xit-wacr-settings-page.php:214
+msgid "Error Message"
+msgstr "Μήνυμα λάθους"
+
+#: includes/class-xit-wacr-settings-page.php:229
+#, fuzzy
+#| msgid "The API key that has been provided you."
+msgid "The verification code that has been provided you."
+msgstr "Το κλειδί API που σας έχει παρασχεθεί."
+
+#: includes/class-xit-wacr-settings-page.php:237
+msgid "The URL where cart data will be submitted."
+msgstr "Η διεύθυνση URL όπου θα υποβληθούν τα δεδομένα καλαθιού."
+
+#: includes/class-xit-wacr-settings-page.php:245
+msgid "The Javascript file for facebook messenger plugin."
+msgstr "Το αρχείο Javascript για plugin facebook messenger."
+
+#: includes/class-xit-wacr-settings-page.php:253
+msgid "The error message to be shown if checkbox is not checked."
+msgstr ""
+"Το μήνυμα σφάλματος που θα εμφανιστεί αν δεν έχει επιλεγεί το πλαίσιο "
+"ελέγχου."
+
+#: includes/class-xit-wacr-settings-page.php:269
+msgid "Please provide a valid verification code."
+msgstr "Καταχωρίστε έναν έγκυρο κωδικό επαλήθευσης."
+
+#: includes/class-xit-wacr-settings-page.php:275
+msgid "Please provide a valid webhook url."
+msgstr "Καταχωρίστε μια έγκυρη διεύθυνση URL webhook."
+
+#: includes/class-xit-wacr-settings-page.php:281
+msgid "Please provide a valid checkbox script url."
+msgstr ""
+"Καταχωρίστε μια έγκυρη διεύθυνση URL δέσμης ενεργειών στο πλαίσιο ελέγχου."
+
+#: includes/class-xit-wacr-settings-page.php:287
+msgid "Please provide a checkbox opt-in message."
+msgstr "Καταχωρίστε ένα μήνυμα επιλογής για το πλαίσιο ελέγχου."
+
+#~ msgid "API Key"
+#~ msgstr "Κλειδί API"
+
+#~ msgid "Server URL"
+#~ msgstr "Διεύθυνση URL διακομιστή"

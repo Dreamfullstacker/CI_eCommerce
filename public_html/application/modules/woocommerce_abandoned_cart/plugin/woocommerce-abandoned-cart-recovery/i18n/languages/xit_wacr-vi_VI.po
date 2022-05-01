@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Abandoned Cart Recovery\n"
+"POT-Creation-Date: 2019-11-04 16:38+0600\n"
+"PO-Revision-Date: 2019-11-04 16:39+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:106
+msgid "Please click the checkbox to Messenger OPT-IN"
+msgstr "Vui lòng nhấp vào hộp kiểm để Messenger OPT-IN"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:171
+msgid "WooCommerce plugin must be istalled to make this plugin work."
+msgstr "Plugin WooC Commerce phải được kết hợp để làm cho plugin này hoạt động."
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:273
+msgid " or skip it"
+msgstr "hoặc bỏ qua nó"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:491
+#, fuzzy
+#| msgid "Woocommerce abandoned cart recovery API key is invalid!"
+msgid "Woocommerce abandoned cart recovery verification code is invalid!"
+msgstr "Khóa API khôi phục giỏ hàng bị bỏ rơi của Wooc Commerce không hợp lệ!"
+
+#: includes/class-wp-list-table.php:169
+msgid "List View"
+msgstr "Xem danh sách"
+
+#: includes/class-wp-list-table.php:170
+msgid "Excerpt View"
+msgstr "Xem trích"
+
+#: includes/class-wp-list-table.php:335
+msgid "No items found."
+msgstr "Không tìm thấy vật nào."
+
+#: includes/class-wp-list-table.php:464
+msgid "Select bulk action"
+msgstr "Chọn hành động hàng loạt"
+
+#: includes/class-wp-list-table.php:466
+msgid "Bulk Actions"
+msgstr "Hành động số lượng lớn"
+
+#: includes/class-wp-list-table.php:476
+msgid "Apply"
+msgstr "Ứng dụng"
+
+#: includes/class-wp-list-table.php:528 includes/class-wp-list-table.php:1350
+msgid "Show more details"
+msgstr "Hiển thị thêm chi tiết"
+
+#: includes/class-wp-list-table.php:596
+msgid "Filter by date"
+msgstr "Lọc theo ngày"
+
+#: includes/class-wp-list-table.php:598
+msgid "All dates"
+msgstr "Tất cả các ngày"
+
+#: includes/class-wp-list-table.php:613
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-wp-list-table.php:672 includes/class-wp-list-table.php:694
+#: includes/class-wp-list-table.php:717
+msgid "No comments"
+msgstr "Miễn bình luận"
+
+#: includes/class-wp-list-table.php:694
+msgid "No approved comments"
+msgstr "Không có ý kiến phê duyệt"
+
+#: includes/class-wp-list-table.php:717
+msgid "No pending comments"
+msgstr "Không có ý kiến chờ xử lý"
+
+#: includes/class-wp-list-table.php:830
+msgid "First page"
+msgstr "Trang đầu tiên"
+
+#: includes/class-wp-list-table.php:841
+msgid "Previous page"
+msgstr "Trang trước"
+
+#: includes/class-wp-list-table.php:848 includes/class-wp-list-table.php:852
+msgid "Current Page"
+msgstr "Trang hiện tại"
+
+#: includes/class-wp-list-table.php:866
+msgid "Next page"
+msgstr "Trang tiếp theo"
+
+#: includes/class-wp-list-table.php:877
+msgid "Last page"
+msgstr "Trang cuối"
+
+#: includes/class-wp-list-table.php:1099
+msgid "Select All"
+msgstr "Chọn tất cả"
+
+#: includes/class-xit-wacr-error-log-list.php:90
+msgid "No logs found"
+msgstr "Không tìm thấy nhật ký"
+
+#: includes/class-xit-wacr-error-log-list.php:105
+#: includes/class-xit-wacr-error-log-list.php:182
+msgid "Delete"
+msgstr "Xóa bỏ"
+
+#: includes/class-xit-wacr-error-log-list.php:153
+msgid "Status"
+msgstr "Trạng thái"
+
+#: includes/class-xit-wacr-error-log-list.php:154
+msgid "Failed Data"
+msgstr "Dữ liệu thất bại"
+
+#: includes/class-xit-wacr-error-log-list.php:155
+msgid "Created At"
+msgstr "Tạo tại"
+
+#: includes/class-xit-wacr-settings-page.php:75
+msgid "WooCommerce abandoned cart recovery settings"
+msgstr "WooC Commerce từ bỏ cài đặt khôi phục giỏ hàng"
+
+#: includes/class-xit-wacr-settings-page.php:76
+msgid "Abandoned Cart"
+msgstr "Giỏ hàng bị bỏ rơi"
+
+#: includes/class-xit-wacr-settings-page.php:87
+#, fuzzy
+#| msgid "WooCommerce abandoned cart recovery settings"
+msgid "WooCommerce abandoned cart recovery error logs"
+msgstr "WooC Commerce từ bỏ cài đặt khôi phục giỏ hàng"
+
+#: includes/class-xit-wacr-settings-page.php:88
+#: includes/class-xit-wacr-settings-page.php:128
+msgid "Error Logs"
+msgstr "Nhật ký lỗi"
+
+#: includes/class-xit-wacr-settings-page.php:95
+#: includes/class-xit-wacr-settings-page.php:179
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: includes/class-xit-wacr-settings-page.php:108
+msgid "Logs per page"
+msgstr "Nhật ký trên mỗi trang"
+
+#: includes/class-xit-wacr-settings-page.php:152
+msgid "WooCommerce Abandoned Cart Recovery"
+msgstr "Phục hồi giỏ hàng bị bỏ rơi WooC Commerce"
+
+#: includes/class-xit-wacr-settings-page.php:187
+msgid "Verification Code"
+msgstr "Mã xác nhận"
+
+#: includes/class-xit-wacr-settings-page.php:196
+msgid "Webhook Call URL"
+msgstr "URL cuộc gọi webhook"
+
+#: includes/class-xit-wacr-settings-page.php:205
+msgid "Checkbox Script URL"
+msgstr "URL hộp kiểm tra"
+
+#: includes/class-xit-wacr-settings-page.php:214
+msgid "Error Message"
+msgstr "Thông báo lỗi"
+
+#: includes/class-xit-wacr-settings-page.php:229
+#, fuzzy
+#| msgid "The API key that has been provided you."
+msgid "The verification code that has been provided you."
+msgstr "Khóa API đã được cung cấp cho bạn."
+
+#: includes/class-xit-wacr-settings-page.php:237
+msgid "The URL where cart data will be submitted."
+msgstr "URL nơi dữ liệu giỏ hàng sẽ được gửi."
+
+#: includes/class-xit-wacr-settings-page.php:245
+msgid "The Javascript file for facebook messenger plugin."
+msgstr "Các tập tin Javascript cho plugin facebook messenger."
+
+#: includes/class-xit-wacr-settings-page.php:253
+msgid "The error message to be shown if checkbox is not checked."
+msgstr "Thông báo lỗi sẽ được hiển thị nếu hộp kiểm không được chọn."
+
+#: includes/class-xit-wacr-settings-page.php:269
+msgid "Please provide a valid verification code."
+msgstr "Vui lòng cung cấp mã xác minh hợp lệ."
+
+#: includes/class-xit-wacr-settings-page.php:275
+msgid "Please provide a valid webhook url."
+msgstr "Vui lòng cung cấp một url webhook hợp lệ."
+
+#: includes/class-xit-wacr-settings-page.php:281
+msgid "Please provide a valid checkbox script url."
+msgstr "Vui lòng cung cấp một url kịch bản hộp kiểm hợp lệ."
+
+#: includes/class-xit-wacr-settings-page.php:287
+msgid "Please provide a checkbox opt-in message."
+msgstr "Vui lòng cung cấp một hộp kiểm chọn thông báo."
+
+#~ msgid "API Key"
+#~ msgstr "Mã API"
+
+#~ msgid "Server URL"
+#~ msgstr "URL máy chủ"

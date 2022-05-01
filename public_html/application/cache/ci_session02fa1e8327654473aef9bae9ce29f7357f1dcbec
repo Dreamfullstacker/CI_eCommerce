@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1649053279;csrf_token_session|s:64:"d51bc1b6262361ff25c6dae4e962f991c62dadff6a180187100eaa9da48c59c4";is_mobile|s:1:"0";return_configid_used_for_social_login|s:1:"1";FBRLH_state|s:32:"14f3f40d0fa0e8f85f9491c3cb4f76bc";license_type|s:6:"double";user_type|s:5:"Admin";logged_in|i:1;username|s:31:"Millennials Corporation Limited";user_id|s:1:"1";download_id|i:1649008908;user_login_email|s:16:"admin@digibot.ai";expiry_date|s:19:"0000-00-00 00:00:00";brand_logo|s:53:"https://www.digibot.ai/assets/img/avatar/avatar-1.png";selected_global_media_type|s:2:"fb";fb_rx_login_database_id|s:1:"1";facebook_rx_fb_user_info|s:1:"1";package_info|a:0:{}download_id_front|s:32:"804ea4b3e38e2f827ab3c0305ebfa158";selected_global_page_table_id|s:1:"9";bot_subscribers_sql|s:673:"SELECT `messenger_bot_subscriber`.*, `page_name`, `insta_username`, GROUP_CONCAT(messenger_bot_subscribers_label.contact_group_id separator ', ') as single_contact_table_id
+FROM `messenger_bot_subscriber`
+LEFT JOIN `facebook_rx_fb_page_info` ON `facebook_rx_fb_page_info`.`id`=`messenger_bot_subscriber`.`page_table_id`
+LEFT JOIN `messenger_bot_subscribers_label` ON `messenger_bot_subscriber`.`id`=`messenger_bot_subscribers_label`.`subscriber_table_id`
+WHERE `social_media` != 'ig'
+AND `page_table_id` = '9'
+AND `messenger_bot_subscriber`.`user_id` = 1 AND `facebook_rx_fb_user_info_id` = 1
+GROUP BY `messenger_bot_subscriber`.`id`
+ORDER BY `subscribed_at` desc
+ LIMIT 10";

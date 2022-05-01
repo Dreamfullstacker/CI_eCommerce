@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Abandoned Cart Recovery\n"
+"POT-Creation-Date: 2019-11-04 16:33+0600\n"
+"PO-Revision-Date: 2019-11-04 16:34+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:106
+msgid "Please click the checkbox to Messenger OPT-IN"
+msgstr "Пожалуйста, поставьте флажок в «Messenger OPT-IN»"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:171
+msgid "WooCommerce plugin must be istalled to make this plugin work."
+msgstr "Плагин WooCommerce должен быть установлен, чтобы этот плагин работал."
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:273
+msgid " or skip it"
+msgstr "или пропустить это"
+
+#: includes/class-woocommerce-abandoned-cart-recovery.php:491
+#, fuzzy
+#| msgid "Woocommerce abandoned cart recovery API key is invalid!"
+msgid "Woocommerce abandoned cart recovery verification code is invalid!"
+msgstr "Ключ API восстановления Woocommerce для брошенной корзины недействителен!"
+
+#: includes/class-wp-list-table.php:169
+msgid "List View"
+msgstr "Посмотреть список"
+
+#: includes/class-wp-list-table.php:170
+msgid "Excerpt View"
+msgstr "Просмотр выдержки"
+
+#: includes/class-wp-list-table.php:335
+msgid "No items found."
+msgstr "Ничего не найдено."
+
+#: includes/class-wp-list-table.php:464
+msgid "Select bulk action"
+msgstr "Выберите массовое действие"
+
+#: includes/class-wp-list-table.php:466
+msgid "Bulk Actions"
+msgstr "Массовые действия"
+
+#: includes/class-wp-list-table.php:476
+msgid "Apply"
+msgstr "Применять"
+
+#: includes/class-wp-list-table.php:528 includes/class-wp-list-table.php:1350
+msgid "Show more details"
+msgstr "Показать больше деталей"
+
+#: includes/class-wp-list-table.php:596
+msgid "Filter by date"
+msgstr "Фильтровать по дате"
+
+#: includes/class-wp-list-table.php:598
+msgid "All dates"
+msgstr "Все даты"
+
+#: includes/class-wp-list-table.php:613
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-wp-list-table.php:672 includes/class-wp-list-table.php:694
+#: includes/class-wp-list-table.php:717
+msgid "No comments"
+msgstr "Без комментариев"
+
+#: includes/class-wp-list-table.php:694
+msgid "No approved comments"
+msgstr "Нет утвержденных комментариев"
+
+#: includes/class-wp-list-table.php:717
+msgid "No pending comments"
+msgstr "Нет ожидающих комментариев"
+
+#: includes/class-wp-list-table.php:830
+msgid "First page"
+msgstr "Первая страница"
+
+#: includes/class-wp-list-table.php:841
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: includes/class-wp-list-table.php:848 includes/class-wp-list-table.php:852
+msgid "Current Page"
+msgstr "Текущая страница"
+
+#: includes/class-wp-list-table.php:866
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: includes/class-wp-list-table.php:877
+msgid "Last page"
+msgstr "Последняя страница"
+
+#: includes/class-wp-list-table.php:1099
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: includes/class-xit-wacr-error-log-list.php:90
+msgid "No logs found"
+msgstr "Логи не найдены"
+
+#: includes/class-xit-wacr-error-log-list.php:105
+#: includes/class-xit-wacr-error-log-list.php:182
+msgid "Delete"
+msgstr "удалять"
+
+#: includes/class-xit-wacr-error-log-list.php:153
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-xit-wacr-error-log-list.php:154
+msgid "Failed Data"
+msgstr "Неудачные данные"
+
+#: includes/class-xit-wacr-error-log-list.php:155
+msgid "Created At"
+msgstr "Создано в"
+
+#: includes/class-xit-wacr-settings-page.php:75
+msgid "WooCommerce abandoned cart recovery settings"
+msgstr "WooCommerce оставил корзину восстановления настроек"
+
+#: includes/class-xit-wacr-settings-page.php:76
+msgid "Abandoned Cart"
+msgstr "Заброшенная корзина"
+
+#: includes/class-xit-wacr-settings-page.php:87
+#, fuzzy
+#| msgid "WooCommerce abandoned cart recovery settings"
+msgid "WooCommerce abandoned cart recovery error logs"
+msgstr "WooCommerce оставил корзину восстановления настроек"
+
+#: includes/class-xit-wacr-settings-page.php:88
+#: includes/class-xit-wacr-settings-page.php:128
+msgid "Error Logs"
+msgstr "Журналы ошибок"
+
+#: includes/class-xit-wacr-settings-page.php:95
+#: includes/class-xit-wacr-settings-page.php:179
+msgid "Settings"
+msgstr "настройки"
+
+#: includes/class-xit-wacr-settings-page.php:108
+msgid "Logs per page"
+msgstr "Логи на страницу"
+
+#: includes/class-xit-wacr-settings-page.php:152
+msgid "WooCommerce Abandoned Cart Recovery"
+msgstr "WooCommerce Восстановление покинутой корзины"
+
+#: includes/class-xit-wacr-settings-page.php:187
+msgid "Verification Code"
+msgstr "Код верификации"
+
+#: includes/class-xit-wacr-settings-page.php:196
+msgid "Webhook Call URL"
+msgstr "URL-адрес вызова Webhook"
+
+#: includes/class-xit-wacr-settings-page.php:205
+msgid "Checkbox Script URL"
+msgstr "Флажок Скрипт URL"
+
+#: includes/class-xit-wacr-settings-page.php:214
+msgid "Error Message"
+msgstr "Сообщение об ошибке"
+
+#: includes/class-xit-wacr-settings-page.php:229
+#, fuzzy
+#| msgid "The API key that has been provided you."
+msgid "The verification code that has been provided you."
+msgstr "Ключ API, который был предоставлен вам."
+
+#: includes/class-xit-wacr-settings-page.php:237
+msgid "The URL where cart data will be submitted."
+msgstr "URL, на который будут отправлены данные корзины."
+
+#: includes/class-xit-wacr-settings-page.php:245
+msgid "The Javascript file for facebook messenger plugin."
+msgstr "Файл Javascript для плагина Facebook Messenger."
+
+#: includes/class-xit-wacr-settings-page.php:253
+msgid "The error message to be shown if checkbox is not checked."
+msgstr "Сообщение об ошибке будет отображаться, если флажок не установлен."
+
+#: includes/class-xit-wacr-settings-page.php:269
+msgid "Please provide a valid verification code."
+msgstr "Пожалуйста, предоставьте действительный код подтверждения."
+
+#: includes/class-xit-wacr-settings-page.php:275
+msgid "Please provide a valid webhook url."
+msgstr "Пожалуйста, предоставьте действительный URL-адрес webhook."
+
+#: includes/class-xit-wacr-settings-page.php:281
+msgid "Please provide a valid checkbox script url."
+msgstr "Пожалуйста, предоставьте действительный URL-адрес скрипта флажка."
+
+#: includes/class-xit-wacr-settings-page.php:287
+msgid "Please provide a checkbox opt-in message."
+msgstr "Пожалуйста, поставьте галочку в сообщении о подписке."
+
+#~ msgid "API Key"
+#~ msgstr "Ключ API"
+
+#~ msgid "Server URL"
+#~ msgstr "URL сервера"

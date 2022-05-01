@@ -1,0 +1,13 @@
+Change log
+- New interface for live chat feature
+Visual Flow Builder 1.6.6 ( Change log )
+×
+
+
+Files
+application/modules/visual_flow_builder/controllers/Visual_flow_builder.php
+application/modules/visual_flow_builder/views/index.php
+
+
+Sql
+UPDATE `add_ons` SET `version` = '1.6.6' WHERE `project_id`=59;

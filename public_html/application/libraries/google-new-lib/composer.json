@@ -1,0 +1,20 @@
+{
+    "require": {
+        "google/apiclient": "^2.12.1"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+		"google/apiclient-services": [
+			"Oauth2",
+			"MyBusinessAccountManagement",
+			"MyBusinessBusinessInformation",
+			"MyBusinessLodging",
+			"MyBusinessNotificationSettings",
+			"MyBusinessPlaceActions",
+			"MyBusinessVerifications",
+			"MyBusinessQA"
+    ]
+  }
+}

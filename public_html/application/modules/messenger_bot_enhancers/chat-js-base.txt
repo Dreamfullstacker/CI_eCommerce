@@ -1,0 +1,87 @@
+var DONOT_SHOW_IF_NOT_LOGIN={DONOT_SHOW_IF_NOT_LOGIN};  
+var myCheckBoxState_01="";
+var send_to_messenger_state_01="";  
+window.fbMessengerPlugins = window.fbMessengerPlugins || {        
+init: function () {          
+FB.init({            
+appId            : 'APP_ID',            
+autoLogAppEvents : true,            
+xfbml            : true,           
+ version          : 'v2.10'          
+ }); FB.getLoginStatus(function(response) 
+	{
+		if (response.status === 'connected') 
+		{
+			console.log("You are connected to Facebook, Facebook customer chat plugin has been loaded.");
+		} 
+		else if (response.status === 'not_authorized') 
+		{
+			//console.log("Authorization failed, you must login with Facebook.");
+		} 
+		else 
+		{
+			console.log("You are not logged in to Facebook.");
+			if(DONOT_SHOW_IF_NOT_LOGIN)
+			{
+				setTimeout(function () {  
+				
+				FB.CustomerChat.hide();
+				console.log("Facebook customer chat plugin has been hidden.");
+				},3500);
+			}
+		}
+	});}, callable: []      
+ };     
+ 
+ window.fbAsyncInit = window.fbAsyncInit || function () {       
+ window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
+ window.fbMessengerPlugins.init();  
+
+	FB.Event.subscribe("send_to_messenger", function(e) {
+	  if (e.event == "rendered") 
+	  {
+		console.log("Send to messenger plugin was rendered");
+	  }  
+	  else if (e.event == "hidden") 
+	  {
+		console.log("Send to messenger plugin was hidden");
+	  }   
+
+	  else if(e.event=="opt_in")  
+	  {
+		send_to_messenger_state_01=e.event;
+		confirm_send_to_messenger();
+	  }   
+	});  
+
+	FB.Event.subscribe("messenger_checkbox", function(e){            
+	  if (e.event == "rendered") 
+	  {
+		console.log("Checkbox plugin was rendered");
+	  } 
+	  else if (e.event == "checkbox") 
+	  {
+		myCheckBoxState_01=e.state;
+		if(myCheckBoxState_01=="checked")
+        confirmOptIn();
+	  }  
+	  else if (e.event == "hidden") 
+	  {
+		console.log("Checkbox plugin was hidden");
+	  }
+	});  
+ };     
+ 
+ setTimeout(function () {        
+ (function (d, s, id) {         
+ var js, fjs = d.getElementsByTagName(s)[0];          
+ if (d.getElementById(id)) { 
+ return; 
+ }          
+ js = d.createElement(s);          
+ js.id = id;          
+ js.src = "https://connect.facebook.net/LOCALE/sdk.js";  
+ js.src = "//connect.facebook.net/LOCALE/sdk/xfbml.customerchat.js";         
+ fjs.parentNode.insertBefore(js, fjs);        
+ }(document, 'script', 'facebook-jssdk'));      
+ }, 0);  

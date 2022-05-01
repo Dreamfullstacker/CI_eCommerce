@@ -1,0 +1,19 @@
+<?php 
+ /* 
+    Plugin Name: EasyEmbedChat
+    Description: 
+    Author: 
+    Version: 1.0 
+    Author URI: 
+*/   
+
+
+//add_action('wp_head', 'your_function_name');
+add_action('wp_footer', 'embed_socileadmessenger_code');
+
+function embed_socileadmessenger_code() { ?>
+
+LOAD_CHAT_CODE_HERE
+
+<?php
+}

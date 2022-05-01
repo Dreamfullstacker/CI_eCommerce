@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1648880474;csrf_token_session|s:64:"c58fd86e788dd802fe901b5f7d11af5c50324171e1c409a29f092ae305db8c34";is_mobile|s:1:"0";return_configid_used_for_social_login|s:1:"1";FBRLH_state|s:32:"2a3712478486b90b98a7f6e3178a511e";license_type|s:6:"double";user_type|s:5:"Admin";logged_in|i:1;username|s:31:"Millennials Corporation Limited";user_id|s:1:"1";download_id|i:1648880489;user_login_email|s:16:"admin@digibot.ai";expiry_date|s:19:"0000-00-00 00:00:00";brand_logo|s:49:"https://digibot.ai/assets/img/avatar/avatar-1.png";selected_global_media_type|s:2:"fb";fb_rx_login_database_id|s:1:"1";facebook_rx_fb_user_info|s:1:"1";package_info|a:0:{}download_id_front|s:32:"3d6692847b0550f2d59d04748bcff0a3";ecommerce_selected_store|s:1:"1";ecommerce_selected_store_title_display|s:92:"<a target='_BLANK' href='https://digibot.ai/ecommerce/store/11648491212'>ทดสอบ</a>";ecommerce_selected_store_title|s:15:"ทดสอบ";ecommerce_selected_store_type|s:8:"physical";ecommerce_from_date|s:19:"2022-03-03 00:00:00";ecommerce_to_date|s:19:"2022-04-02 23:59:59";ecommerce_currency|s:3:"THB";selected_global_page_table_id|s:1:"2";bot_subscribers_sql|s:673:"SELECT `messenger_bot_subscriber`.*, `page_name`, `insta_username`, GROUP_CONCAT(messenger_bot_subscribers_label.contact_group_id separator ', ') as single_contact_table_id
+FROM `messenger_bot_subscriber`
+LEFT JOIN `facebook_rx_fb_page_info` ON `facebook_rx_fb_page_info`.`id`=`messenger_bot_subscriber`.`page_table_id`
+LEFT JOIN `messenger_bot_subscribers_label` ON `messenger_bot_subscriber`.`id`=`messenger_bot_subscribers_label`.`subscriber_table_id`
+WHERE `social_media` != 'ig'
+AND `page_table_id` = '9'
+AND `messenger_bot_subscriber`.`user_id` = 1 AND `facebook_rx_fb_user_info_id` = 1
+GROUP BY `messenger_bot_subscriber`.`id`
+ORDER BY `subscribed_at` desc
+ LIMIT 10";
